@@ -1,0 +1,7 @@
+Tipos de aprendizaje en Machine Learning
+
+En algoritmos de Machine Learning hay 4 tipos conocidos actualmente de Tipos de Aprendizaje: supervisados, no supervisados, por refuerzo y semisupervisado.
+En el aprendizaje supervisado se tiene conocimiento (etiquetada) de la variable que se espera obtener como predicción, por eso se divide la información en dos para obtener una base de entrenamiento y otra base de prueba con el fin de validar la precisión del algoritmo en entrenamiento.
+En el no supervisado, no se conoce la información de salida preivamente y el algoritmo es el que se encarga de evaluar la respuesta esperada según las variables que se tienen para entrenar el algoritmo.
+En el semisupervisado, solo algunos se tienen con etiqueta y otros que no están etiquetados, el algoritmo busca encontrar las etiquetas que faltan para que se ocniverta en supervisado.
+En el de refuerzo, el algoritmo se encarga de reentrenar reforzando los resultados y asì afinando la predicción.
