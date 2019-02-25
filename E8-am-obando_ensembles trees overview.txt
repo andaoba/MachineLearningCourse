@@ -1,0 +1,13 @@
+Ensembles Trees Overview
+
+Como dice Aurélien Géron en su libro titulado Hands-On Machine Learning with Scikit-Learn & Tensor Flow, si se le pregunta a una multitud por un concepto y luego se cobinan las respuestas, esta es probable que sea mejor que la de un experto, a lo que se le llama la sabiduría de la multitud. Este concepto es el que se aplica a los ensembles (conjuntos) de diferentes modelos que predicen o clasifican. 
+Los ensembles utilizan diferentes modelos, por ejemplo, árboles de decisión, los cuales individualmente son entrenados con datos aleatorios, para obtener una salida con buena precisión. Posteriormente se combinan todos estos modelos mediante una técnica de ensemble, mejorando aún más la precisión de los modelos, en buena parte de los casos. Esto se debe a la aleatoriedad de cada modelo combinada, produce tal variación que disminuye el error.
+Algunas técnicas de ensemble se conocen Majority Voting, otras como Weighting Voting, que toman de las predicciones hechas de cada modelo, las que mejor predicción tienen, mejorando así la predicción.
+Cuando cada predictor es completamente independiente de los otros se obtienen mejores resultados. El problema es que lograr la independencia de modelos no es fácil. Algo que se puede hacer, para obtener la mayor independencia entre los modelos es usar diferentes algorítmos, ya que esto hace que se incremente la posibilidad de obtener diferentes tipos de errores mejorando la precisión del ensemble. Otra forma de hacerlo es usar el mismo algorítmo, pero entrenarlo en diferentes subconjuntos aleatorios del conjunto de datos de entrenamiento. Si, en este método, se usa reemplazo se le conoce como bagging, si no se usa reemplazo se le llama pasting.
+Cada algorítmo puede ser entrenado en paralelo con otro procesador e incluso en otro equipo o servidor, lo que hace a los ensembles altamente escalables.
+
+Referencias:
+Hands-On Machine Learning with Scikit-Learn & Tensor Flow: Concepts, tools, and techniques, to build intelligent systems. Aurélien Géron. O'Reilly Media. 2017.
+
+
+
