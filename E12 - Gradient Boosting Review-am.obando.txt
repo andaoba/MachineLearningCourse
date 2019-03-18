@@ -1,0 +1,17 @@
+﻿E12 - Gradient Boosting Review. por: Andrés Mauricio Obando Acevedo.
+Antes de indicar las diferen cias, se debe aclarar el funcionamiento del gradient Boosting classifier:
+El Gradient Boosting se trata de una técnica de ensamble que, mediante la generación de diferentes modelos de clasificación, mejorar la precisión debido a que en cada iteración se clasifican los residuos del modelo anterior, es decir, cada iteración reduce el error generado por las iteraciones previas.
+Es casual, que se use Random Forest Classifier para realizar cada clasificación dado que es un buen clasificador. Al final de las iteraciones, la clasificación se obtiene al sumar todas las predicciones realizadas en cada iteración, es decir, se suma n todo s los clasificados es usados.
+Es te método genera muy buenos resultados, sin embargo, el costo computacional puede llegar a ser muy alto y, si se está trabajando con una base de datos muy grande, o con muchas variables, es posible que este método no seo el adecuado. por tal motivo, ha surgido el XGBoosting.
+XGBoosting, es la denominación para eXtreme Gradient Boosting, Creado por Tianqi Chen, posteriormentese han sumado nuevos colaboradores. Este metodo además de proveer una mejora computacional, también provee una mejora en el desempeño del modelo.
+Este modelo realiza internamente una serie de calculos con el fin de encontrar las mejores particiones, la mejor profundidad, can tidad óptima de árboles, entre otras mejoras con el fin de llegar a un óptimo Gradient Boosting.
+Estas mejoras han dado muy buenos resultados observados en las competencias de Kaggle y, es tal la optimización computacional que logra, que ha sido elegido por el CERN como el algoritmo que mejor encaja en el desafío del análisis de datos provenientes del colisionador de Hadrones que cada año acumula peta bytes de información.
+XGBoost utiliza las características de los Gradient Boosting con Regression Trees, así que utiliza los mismos parámetros, pero controla el crecimiento de los árboles hasta el punto óptimo controlando el error de cada predicción. La selección de las particiones de cada árbol se selecciona de forma que sea la que mejor resultado dé, es decir, que minimice el error y genera una evaluación de cada partición y de esta forma optimizar el consumo computacional.
+
+Referencias:
+- Aurélien Géron - Hands-On Machine Learning with Scikit-Learn and TensorFlow_ Concepts, Tools, and Techniques to Build Intelligent Systems-O’Reilly Media (2017).
+- Andreas C. Müller, Sarah Guido - Introduction to Machine Learning with Python_ A Guide for Data Scientists-O’Reilly Media (2016).
+- https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+- https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/
+- https://github.com/dmlc/xgboost
+- http://datascience.la/xgboost-workshop-and-meetup-talk-with-tianqi-chen/
