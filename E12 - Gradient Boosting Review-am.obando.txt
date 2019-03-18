@@ -8,5 +8,10 @@ Este modelo realiza internamente una serie de calculos con el fin de encontrar l
 Estas mejoras han dado muy buenos resultados observados en las competencias de Kaggle y, es tal la optimización computacional que logra, que ha sido elegido por el CERN como el algoritmo que mejor encaja en el desafío del análisis de datos provenientes del colisionador de Hadrones que cada año acumula peta bytes de información.
 XGBoost utiliza las características de los Gradient Boosting con Regression Trees, así que utiliza los mismos parámetros, pero controla el crecimiento de los árboles hasta el punto óptimo controlando el error de cada predicción. La selección de las particiones de cada árbol se selecciona de forma que sea la que mejor resultado dé, es decir, que minimice el error y genera una evaluación de cada partición y de esta forma optimizar el consumo computacional.
 
- 
-
+Referencias:
+- Aurélien Géron - Hands-On Machine Learning with Scikit-Learn and TensorFlow_ Concepts, Tools, and Techniques to Build Intelligent Systems-O’Reilly Media (2017).
+- Andreas C. Müller, Sarah Guido - Introduction to Machine Learning with Python_ A Guide for Data Scientists-O’Reilly Media (2016).
+- https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/
+- https://www.analyticsvidhya.com/blog/2018/09/an-end-to-end-guide-to-understand-the-math-behind-xgboost/
+- https://github.com/dmlc/xgboost
+- http://datascience.la/xgboost-workshop-and-meetup-talk-with-tianqi-chen/
