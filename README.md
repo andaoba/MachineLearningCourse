@@ -31,9 +31,14 @@
 2. E13 - Categorical Encoding
 
 ## Project Presentations
+
+## Unbalanced Learning
 1. E14 - Unbalanced Learning Overview
 2. E15 - Fraud Detection
 
-## Unbalanced Learning
+# Natural Language Processing
+## Natural Language Processing
 1. E16 - NLP Review
 2. P2 - NLP Movies Analysis API
+
+
