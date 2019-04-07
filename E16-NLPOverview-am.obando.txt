@@ -1,0 +1,22 @@
+E14 - Natural Language Processing Overview
+Andrés Mauricio Obando Acevedo.
+
+Algoritmos NLP son usados actualmente en muchas de las cosas que nos rodean y ni siquiera nos percatamos. Por ejemplo, en las redes sociales, son usados con muchos fines, linkedin no es la excepeción. Esta red social busca que sus usuarios quieran permanecer el mayor tiempo posible en su red, para ello, uscan garantizar que el contenido que por dicha red circula sea de muy buena calidad. Para garantizar esto, su algoritmo reconoce lo que se publica y lo categoriza.
+
+El NLP que utiliza, evalúa el contenido del texto y lo clasifica en 3 categorías: Spam, low-quality, Clear. El primero lo elimina, el segundo disminuye su presencia, mientras que el último lo hace visible de manera relevante. Una vez clasificado, hay una segunda fase de revisión. Aquellos que fueron marcados como clear o low-quality se muestran en el feed para algunos usuarios, temporalmente para probar el impacto, basado en las interacciones que hagan los usuarios con la publicación, es decir, likes, comentarios y compartir. Según esto, la publicación puede ser eliminada o no.
+
+Si los usuarios marcan como spam el contenido o lo ocultan, aumentan las probabilidades de ser eliminado.
+
+Sin embargo, hay una tecerca fase de revisión, en la cual se evalúa posible spam, ya que normalmente quien comparte spam, también suele usar cuentas ficticias que hacen más aceptada la publicación y podría parecer que es de alta calidad, cuando realmente es basura. En este sentido, con el fin de determinar relevancia e importancia de la publicación, el algoritmo también busca las conexiones y relaciones de las cuentas que interactúan con la publicación. Si el algoritmo no parece ser muy relevante, no se elimina aún, pero sí se degrada para que aparezca menos.
+
+Por último, el algoritmo pone algunos de estas publicaciones para que sean revisadas por humanos y así darle una oportunidad más de ser visible por mas tiempo. 
+
+Es de notar que las publicaciones, nunca paran de ser evaluadas, todo vuelve a circular y ser reprocesado en cada nueva reubicación.
+
+el algoritmo NLP se basa principalmente en clasificación de texto con la librería liblinear y redes profundas convulocionadas entrenadas usando tensor flow.
+
+
+Referencias:
+- https://engineering.linkedin.com/blog/2017/03/strategies-for-keeping-the-linkedin-feed-relevant
+- https://blog.hootsuite.com/how-the-linkedin-algorithm-works-hacks/
+
