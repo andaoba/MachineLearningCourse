@@ -34,11 +34,11 @@
 
 ## Unbalanced Learning
 1. E14 - Unbalanced Learning Overview
-2. E15 - Fraud Detection
 
 # Natural Language Processing
 ## Natural Language Processing
-1. E16 - NLP Review
-2. P2 - NLP Movies Analysis API
+1. E15 - Fraud Detection
+2- E16 - NLP Review
+3. P2 - NLP Movies Analysis API
 
 
